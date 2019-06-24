@@ -39,6 +39,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString cs = new CapitalizedString("This is another test");
+		System.out.println(cs);
+		assertEquals("THIS IS ANOTHER TEST", cs.toString());
 	}
 }
